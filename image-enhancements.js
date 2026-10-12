@@ -17,6 +17,7 @@ Object.entries(originalPhotos).forEach(([selector, [file, description]]) => {
   container.append(image);
 });
 document.querySelector('.hero-backdrop').replaceChildren();
+document.querySelector('.header-inner .brand').innerHTML = '<img class="brand-logo" src="jayram-enterprises-logo.png" alt="Jayram Enterprises — Safety Nets & Invisible Grills" width="210" height="78">';
 document.querySelector('.brand--footer').innerHTML = '<img class="brand-logo" src="jayram-enterprises-logo.png" alt="Jayram Enterprises — Safety Nets & Invisible Grills" width="280" height="105">';
 const galleryPhotos = [['balonynets','Balcony safety net'],['balconynets1','Balcony netting'],['pigeonnets1','Pigeon netting'],['antibird','Anti bird netting'],['childrennets','Children safety net'],['cricketnets','Cricket practice net'],['balconygrills','Balcony invisible grill'],['windowgrills','Window invisible grill'],['stainlesssteelgrills','Stainless steel invisible grill']];
 const gallery = document.createElement('section');
