@@ -1,0 +1,31 @@
+:root{--ink:#171717;--ink-2:#080808;--paper:#fff;--white:#fff;--lime:#cf1738;--lime-dark:#a40f29;--coral:#222;--muted:#666;--line:#ddd;--display:'Arial Narrow','Manrope',Arial,sans-serif}
+body{background:#fff;color:#181818}
+.site-header{background:#050505;border-top:24px solid #272727;height:108px}
+.header-inner{height:84px}
+.brand-logo{width:185px;max-height:65px;border-radius:0;background:#fff;padding:6px}
+.site-nav a{font-size:12px;font-weight:800;text-transform:uppercase;color:#fff;letter-spacing:.03em}
+.header-call small{color:#bbb}.call-dot{background:#cf1738;box-shadow:none}
+.hero{background:#222;height:calc(100vh - 108px);min-height:660px;max-height:820px}
+.hero-backdrop{background:linear-gradient(90deg,#000b,#0005 55%,#0001),url('assets/banner.png') center/cover no-repeat}
+.hero-content{padding-top:150px}
+.hero h1{font-size:clamp(46px,5.3vw,75px);line-height:1.02;letter-spacing:-.035em;text-transform:uppercase;max-width:850px}
+.hero h1 i,.section h2 i,.quote-band h2 i,.contact-section h2 i,.modal-panel h2 i{color:inherit}
+.hero-copy{color:#fff;max-width:490px;font-size:17px}.eyebrow{color:#fff;font-size:11px;letter-spacing:.08em}
+.button{border-radius:0;text-transform:uppercase;font-size:12px;letter-spacing:.03em;padding:18px 25px}
+.button-primary{background:#cf1738;color:#fff}.button-primary:hover{background:#a90f2b}.button-quiet{border:1px solid #fff;padding:17px 22px;color:#fff}.button-quiet:hover{background:#fff;color:#111}
+.hero-controls{background:#161616;width:100%;padding-inline:max(32px,calc((100% - 1180px)/2));border-top:1px solid #555}
+.hero-controls button{color:#ddd;text-transform:uppercase;font-weight:700}.hero-controls button.is-selected{background:#292929;border-bottom:3px solid #cf1738}.hero-controls button.is-selected span,.hero-product-note span{color:#fff}
+.trust-strip{background:#292929}.trust-grid b{color:#fff}.trust-grid p{font-size:14px}
+.section{padding-block:90px}.section h2,.quote-band h2,.contact-section h2{font-size:clamp(36px,4.2vw,58px);text-transform:uppercase;font-weight:800;letter-spacing:-.025em;line-height:1.04}
+.eyebrow.dark{color:#777}.section-intro{grid-template-columns:1fr;gap:12px}.section-intro>div>p{color:#666;font-size:15px}
+.featured-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.solution-card{min-height:440px;padding:30px}.solution-card h3{text-transform:uppercase;font-size:34px;letter-spacing:-.025em}.solution-card-content p{color:#fff}.solution-card button{color:#fff;text-transform:uppercase;border-bottom:2px solid #cf1738;padding-bottom:8px}
+.service-explorer{background:#f2f2f2}.service-grid{border:0;gap:24px}.service-tile{background:#fff;border:0!important;padding-bottom:24px}.service-tile:hover{background:#fff;box-shadow:0 8px 22px #0001}.service-tile h3{text-transform:uppercase;font-size:21px;letter-spacing:-.02em}.service-tile p{color:#666}.service-tile button{color:#cf1738;text-transform:uppercase}.tile-number{color:#888!important}.service-tabs{border-color:#ccc}.service-tabs button.is-active:after{background:#cf1738}.service-tabs button{color:#666}
+.space-item strong{text-transform:uppercase;font-size:18px}.space-item b,.space-item span{color:#777}.text-button{color:#cf1738;border-color:#cf1738;text-transform:uppercase}
+.process-section{background:#232323}.process-heading h2{color:#fff}.process-step b{color:#fff}.process-step h3{text-transform:uppercase;font-size:24px}.process-step p{color:#ccc}
+.project{background:#f1f1f1}.project h3{text-transform:uppercase;font-size:24px;letter-spacing:-.02em}.project p{color:#666}.project-one p{color:#fff}.project button{color:#cf1738;text-transform:uppercase}.project-one button{color:#fff}
+.quote-band{background:#222;color:#fff}.quote-band .button-light{background:#cf1738;color:#fff}.faq-list summary{text-transform:uppercase;font-size:15px}.faq-list summary span{color:#cf1738}
+.contact-section{background:#f2f2f2}.contact-copy>p:not(.eyebrow),.contact-links span{color:#666}.contact-copy>.eyebrow{color:#777}.enquiry-form{box-shadow:none;border:1px solid #ddd}.enquiry-form label{color:#555}.enquiry-form input,.enquiry-form textarea,.enquiry-form select{border-color:#bbb}.contact-links a{color:#111}
+.site-footer{background:#090909}.footer-actions a{color:#fff}.mobile-action-bar{background:#222}.mobile-action-bar button{background:#cf1738;color:#fff}.modal-panel{background:#fff;box-shadow:none}.modal-panel>p{color:#666}.menu-toggle span:not(.sr-only){background:#fff}
+.installation-gallery{padding-top:0}.installation-gallery .eyebrow{color:#777}.installation-photos img{transition:filter .2s}.installation-photos a:hover img{filter:brightness(.85)}
+@media(max-width:1050px){.site-header{height:96px;border-top-width:16px}.header-inner{height:80px}.site-nav{gap:15px}.brand-logo{width:165px}}
+@media(max-width:760px){.site-header{height:76px;border-top-width:8px}.header-inner{height:68px}.site-nav{top:76px;background:#050505}.menu-toggle span:not(.sr-only){background:#fff}.hero{height:690px;min-height:690px}.hero-content{padding-top:74px}.hero h1{font-size:clamp(35px,9vw,55px);line-height:1.07;letter-spacing:-.025em}.hero-copy{font-size:16px;max-width:340px}.hero-backdrop{background:linear-gradient(90deg,#000b,#0005),url('assets/moblibanner.png') center/cover no-repeat}.hero-controls{padding-inline:0}.hero-controls button{font-size:10px}.hero-actions{gap:14px}.hero-product-note{bottom:95px}.section{padding-block:60px}.section h2,.quote-band h2,.contact-section h2{font-size:clamp(32px,8.4vw,45px)}.section-intro{display:block}.featured-grid{grid-template-columns:minmax(0,1fr)}.solution-card{min-height:370px}.service-grid{gap:20px}.service-tile h3{font-size:23px}.service-tile p{font-size:15px}.contact-section{padding-block:60px}.installation-gallery{padding-top:0}.button{min-height:52px}.modal-panel h2{font-size:34px;text-transform:uppercase}.quote-band{padding-block:60px}}
